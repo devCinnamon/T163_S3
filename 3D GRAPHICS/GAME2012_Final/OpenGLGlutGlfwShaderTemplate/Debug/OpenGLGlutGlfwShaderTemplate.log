@@ -1,0 +1,62 @@
+﻿Build started 12/12/2021 9:34:23 PM.
+Logging verbosity is set to: Normal.     1>Project "C:\Users\devCinnamon\source\repos\GBC\3D GRAPHICS\GAME2012_Final\OpenGLGlutGlfwShaderTemplate\OpenGLGlutGlfwShaderTemplate.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\OpenGLGl.c9fbc251.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\CL.exe /c /I"C:\OpenGLwrappers\freeglut-MSVC-2.8.1-1.mp\freeglut\include" /I"C:\OpenGLwrappers\glew-1.10.0-win32\glew-1.10.0\include" /I"C:\OpenGLwrappers\glm-0.9.7.5\glm" /I"C:\OpenGLwrappers\glfw-3.2.1.bin.WIN32\include" /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt GAME2012_Final_GastelloAndrii.cpp
+         GAME2012_Final_GastelloAndrii.cpp
+     1>C:\Users\devCinnamon\source\repos\GBC\3D GRAPHICS\GAME2012_Final\OpenGLGlutGlfwShaderTemplate\Shape.h(117,22): warning C4018: '<': signed/unsigned mismatch
+     1>C:\Users\devCinnamon\source\repos\GBC\3D GRAPHICS\GAME2012_Final\OpenGLGlutGlfwShaderTemplate\Shape.h(163,22): warning C4018: '<': signed/unsigned mismatch
+     1>C:\Users\devCinnamon\source\repos\GBC\3D GRAPHICS\GAME2012_Final\OpenGLGlutGlfwShaderTemplate\Shape.h(199,22): warning C4018: '<': signed/unsigned mismatch
+     1>C:\Users\devCinnamon\source\repos\GBC\3D GRAPHICS\GAME2012_Final\OpenGLGlutGlfwShaderTemplate\Shape.h(218,30): warning C4244: 'argument': conversion from 'int' to '_Ty', possible loss of data
+                 with
+                 [
+                     _Ty=GLfloat
+                 ]
+     1>C:\Users\devCinnamon\source\repos\GBC\3D GRAPHICS\GAME2012_Final\OpenGLGlutGlfwShaderTemplate\Shape.h(219,30): warning C4244: 'argument': conversion from 'int' to '_Ty', possible loss of data
+                 with
+                 [
+                     _Ty=GLfloat
+                 ]
+     1>C:\Users\devCinnamon\source\repos\GBC\3D GRAPHICS\GAME2012_Final\OpenGLGlutGlfwShaderTemplate\Shape.h(252,22): warning C4018: '<': signed/unsigned mismatch
+     1>C:\Users\devCinnamon\source\repos\GBC\3D GRAPHICS\GAME2012_Final\OpenGLGlutGlfwShaderTemplate\Shape.h(520,1): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\devCinnamon\source\repos\GBC\3D GRAPHICS\GAME2012_Final\OpenGLGlutGlfwShaderTemplate\Shape.h(531,1): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\devCinnamon\source\repos\GBC\3D GRAPHICS\GAME2012_Final\OpenGLGlutGlfwShaderTemplate\Shape.h(572,22): warning C4018: '<': signed/unsigned mismatch
+     1>C:\Users\devCinnamon\source\repos\GBC\3D GRAPHICS\GAME2012_Final\OpenGLGlutGlfwShaderTemplate\Shape.h(597,1): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\devCinnamon\source\repos\GBC\3D GRAPHICS\GAME2012_Final\OpenGLGlutGlfwShaderTemplate\Shape.h(622,22): warning C4018: '<': signed/unsigned mismatch
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\CL.exe /c /I"C:\OpenGLwrappers\freeglut-MSVC-2.8.1-1.mp\freeglut\include" /I"C:\OpenGLwrappers\glew-1.10.0-win32\glew-1.10.0\include" /I"C:\OpenGLwrappers\glm-0.9.7.5\glm" /I"C:\OpenGLwrappers\glfw-3.2.1.bin.WIN32\include" /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt prepShader.cpp
+         prepShader.cpp
+     1>C:\Users\devCinnamon\source\repos\GBC\3D GRAPHICS\GAME2012_Final\OpenGLGlutGlfwShaderTemplate\prepShader.cpp(16,19): warning C4244: 'initializing': conversion from 'std::streamoff' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\devCinnamon\source\repos\GBC\3D GRAPHICS\GAME2012_Final\Debug\OpenGLGlutGlfwShaderTemplate.exe" /INCREMENTAL /ILK:"Debug\OpenGLGlutGlfwShaderTemplate.ilk" /NOLOGO /LIBPATH:"C:\OpenGLwrappers\freeglut-MSVC-2.8.1-1.mp\freeglut\lib" /LIBPATH:"C:\OpenGLwrappers\glew-1.10.0-win32\glew-1.10.0\lib\Release\Win32" /LIBPATH:"C:\OpenGLwrappers\glfw-3.2.1.bin.WIN32\lib-vc2015" glew32.lib glfw3.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\devCinnamon\source\repos\GBC\3D GRAPHICS\GAME2012_Final\Debug\OpenGLGlutGlfwShaderTemplate.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\devCinnamon\source\repos\GBC\3D GRAPHICS\GAME2012_Final\Debug\OpenGLGlutGlfwShaderTemplate.lib" /MACHINE:X86 Debug\GAME2012_Final_GastelloAndrii.obj
+         Debug\prepShader.obj
+         OpenGLGlutGlfwShaderTemplate.vcxproj -> C:\Users\devCinnamon\source\repos\GBC\3D GRAPHICS\GAME2012_Final\Debug\OpenGLGlutGlfwShaderTemplate.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\OpenGLGl.c9fbc251.tlog\unsuccessfulbuild".
+         Touching "Debug\OpenGLGl.c9fbc251.tlog\OpenGLGlutGlfwShaderTemplate.lastbuildstate".
+     1>Done Building Project "C:\Users\devCinnamon\source\repos\GBC\3D GRAPHICS\GAME2012_Final\OpenGLGlutGlfwShaderTemplate\OpenGLGlutGlfwShaderTemplate.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+       "C:\Users\devCinnamon\source\repos\GBC\3D GRAPHICS\GAME2012_Final\OpenGLGlutGlfwShaderTemplate\OpenGLGlutGlfwShaderTemplate.vcxproj" (Build target) (1) ->
+       (ClCompile target) -> 
+         C:\Users\devCinnamon\source\repos\GBC\3D GRAPHICS\GAME2012_Final\OpenGLGlutGlfwShaderTemplate\Shape.h(117,22): warning C4018: '<': signed/unsigned mismatch
+         C:\Users\devCinnamon\source\repos\GBC\3D GRAPHICS\GAME2012_Final\OpenGLGlutGlfwShaderTemplate\Shape.h(163,22): warning C4018: '<': signed/unsigned mismatch
+         C:\Users\devCinnamon\source\repos\GBC\3D GRAPHICS\GAME2012_Final\OpenGLGlutGlfwShaderTemplate\Shape.h(199,22): warning C4018: '<': signed/unsigned mismatch
+         C:\Users\devCinnamon\source\repos\GBC\3D GRAPHICS\GAME2012_Final\OpenGLGlutGlfwShaderTemplate\Shape.h(218,30): warning C4244: 'argument': conversion from 'int' to '_Ty', possible loss of data
+         C:\Users\devCinnamon\source\repos\GBC\3D GRAPHICS\GAME2012_Final\OpenGLGlutGlfwShaderTemplate\Shape.h(219,30): warning C4244: 'argument': conversion from 'int' to '_Ty', possible loss of data
+         C:\Users\devCinnamon\source\repos\GBC\3D GRAPHICS\GAME2012_Final\OpenGLGlutGlfwShaderTemplate\Shape.h(252,22): warning C4018: '<': signed/unsigned mismatch
+         C:\Users\devCinnamon\source\repos\GBC\3D GRAPHICS\GAME2012_Final\OpenGLGlutGlfwShaderTemplate\Shape.h(520,1): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+         C:\Users\devCinnamon\source\repos\GBC\3D GRAPHICS\GAME2012_Final\OpenGLGlutGlfwShaderTemplate\Shape.h(531,1): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+         C:\Users\devCinnamon\source\repos\GBC\3D GRAPHICS\GAME2012_Final\OpenGLGlutGlfwShaderTemplate\Shape.h(572,22): warning C4018: '<': signed/unsigned mismatch
+         C:\Users\devCinnamon\source\repos\GBC\3D GRAPHICS\GAME2012_Final\OpenGLGlutGlfwShaderTemplate\Shape.h(597,1): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+         C:\Users\devCinnamon\source\repos\GBC\3D GRAPHICS\GAME2012_Final\OpenGLGlutGlfwShaderTemplate\Shape.h(622,22): warning C4018: '<': signed/unsigned mismatch
+
+
+       "C:\Users\devCinnamon\source\repos\GBC\3D GRAPHICS\GAME2012_Final\OpenGLGlutGlfwShaderTemplate\OpenGLGlutGlfwShaderTemplate.vcxproj" (Build target) (1) ->
+         C:\Users\devCinnamon\source\repos\GBC\3D GRAPHICS\GAME2012_Final\OpenGLGlutGlfwShaderTemplate\prepShader.cpp(16,19): warning C4244: 'initializing': conversion from 'std::streamoff' to 'int', possible loss of data
+
+    12 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.99
